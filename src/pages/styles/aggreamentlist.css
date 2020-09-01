@@ -1,0 +1,13 @@
+#description{
+	width: 30em;
+	height: 10em;
+	border: 2px solid #fe9090;
+	padding-right: 1em;
+	margin-top:3em;
+	text-align: right;
+}
+#backdiv{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

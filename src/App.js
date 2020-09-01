@@ -1,26 +1,31 @@
-import React from 'react';
+import React, { Component } from "react";
 import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter as Router,Route,Switch,Link,Redirect} from 'react-router-dom';
+import MainPage from "./pages/index";
+import dashboard from "./pages/dashboard";
+import forgot from "./pages/forgot";
+import sign from "./pages/sign";
+import payments from "./pages/payments";
+import status from "./pages/status";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+
+  render() {
+      return( 
+       <Router>
+        <Route path="/Main" component ={MainPage}/> 
+        <Route path="/dashboard" component ={dashboard}/> 
+        <Route path="/forgot" component ={forgot}/> 
+        <Route path="/sign" component ={sign}/> 
+        <Route path="/payments" component ={payments}/> 
+        <Route path="/status" component ={status}/> 
+
+
+       </Router>
+      );
+  }
 }
 
 export default App;

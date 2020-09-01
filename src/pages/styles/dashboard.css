@@ -1,0 +1,63 @@
+
+@font-face {
+font-family: "SecularOne-Regular";
+src: url("./SecularOne-Regular.ttf")
+format("TrueType"); }
+
+
+@import url(//fonts.googleapis.com/css?family=Suez+One);
+@import url(//fonts.googleapis.com/css?family=Heebo);
+
+
+
+#dashbuttons button{
+  margin-top: 0.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+  font-family: 'Heebo';
+  letter-spacing: 0.1em;
+  border:2px solid #fe6060;
+  background-color: #fac900;
+  padding: 0.4em 2.5em;
+  color:#fe6060;
+  font-weight: 600;
+  margin-bottom: 11.8em;
+
+}
+
+button a{
+  text-decoration: none;
+  color:#fe6060;
+}
+
+#dashbuttons button:hover{
+   background-color: #fe6060;
+   color:#fac900;
+   cursor: pointer;
+}
+
+
+
+
+
+
+#footer {
+  text-align: center;
+}
+
+#footer span{
+  font-family: 'Heebo';
+  background-color: #fe6060;
+  color:#fac900;
+  font-size: 0.6em;
+  padding: 0em 2em;
+}
+
+#dashboardtopic{
+  font-family: 'SecularOne-Regular';
+  text-align: center;
+  font-size: 2.2em;
+  font-weight: 800;
+  color:#fe6060;
+  margin-top: -1.2em;
+}

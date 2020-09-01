@@ -1,0 +1,157 @@
+/*.App {
+  text-align: center;
+}*/
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+html{
+  background-color: #fac900;
+
+}
+
+*:focus{
+  outline: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@font-face {
+font-family: "SecularOne-Regular";
+src: url("./SecularOne-Regular.ttf")
+format("TrueType"); }
+
+
+@import url(//fonts.googleapis.com/css?family=Suez+One);
+@import url(//fonts.googleapis.com/css?family=Heebo);
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+*{
+  direction: rtl;
+}
+#firstpar{
+  font-family: 'SecularOne-Regular';
+  text-align: center;
+  font-size: 3em;
+  font-weight: 800;
+}
+#secondpar{
+  font-family: 'Heebo';
+  text-align: center;
+  font-weight: lighter;
+}
+#thirdpar{
+  font-family: 'Heebo';
+  text-align: center;
+  font-weight: 200;
+}
+
+#inputsdiv{
+  text-align: center;
+}
+input{
+  align-self: center;
+  background-color: #f2c442;
+  border: none;
+  padding:0.5em 1em;
+  margin-bottom: 0.3em;
+  width: 20em;
+}
+
+#inputsdiv button{
+  margin-top: 0.5em;
+  font-family: 'Heebo';
+  letter-spacing: 0.1em;
+  background-color: #fe6060;
+  border: none;
+  padding: 0.4em 5em;
+  color:#fac900;
+  font-weight: 600;
+
+}
+
+#inputsdiv button:active{
+  transform: scale(0.92);
+  transition: all 0.1s ease;
+}
+
+input::placeholder{
+  font-style: italic;
+  font-weight: 800;
+  color:#fe6060;
+  opacity: 1;
+}
+
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color:#fe6060;
+  font-weight: 800;
+  font-style: italic;
+}
+
+input::-ms-input-placeholder { /* Microsoft Edge */
+  color:#fe6060;
+  font-weight: 800;
+  font-style: italic;
+}
+
+
+#forgotdiv{
+  text-align: center;
+  font-family: 'Heebo';
+}
+
+#forgot{
+  font-size: 0.5em;
+  font-weight: 200;
+}
+
+#presshere{
+  font-size: 0.5em;
+  cursor: pointer;
+  align-self: center;
+}
+
+
+#footer {
+  text-align: center;
+}
+
+#footer span{
+  font-family: 'Heebo';
+  background-color: #fe6060;
+  color:#fac900;
+  font-size: 0.6em;
+  padding: 0em 2em;
+}
+#dashboardinputs button{
+
+  background-color:#fac900;
+}
