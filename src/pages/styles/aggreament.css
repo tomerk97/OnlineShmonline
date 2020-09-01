@@ -1,11 +1,15 @@
 #ordernumber{
 	font-family: SecularOne-Regular;
 	font-weight: 800;
-	border:2px solid #fe9090;
+	border:2px solid #fe6060;
 	width: 13em;
 	text-align: right;
 	padding-right: 1em;
 	cursor: pointer;
+	}
+	#ordernumber:hover{
+		background-color: #fe6060;
+		color:#fac900;
 	}
 
 #orderstatus{
