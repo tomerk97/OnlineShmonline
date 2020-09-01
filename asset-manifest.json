@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tomerk97/OnlineShmonline/static/css/main.8a83f234.chunk.css",
-    "main.js": "/tomerk97/OnlineShmonline/static/js/main.6b91476c.chunk.js",
-    "main.js.map": "/tomerk97/OnlineShmonline/static/js/main.6b91476c.chunk.js.map",
+    "main.js": "/tomerk97/OnlineShmonline/static/js/main.4af7380d.chunk.js",
+    "main.js.map": "/tomerk97/OnlineShmonline/static/js/main.4af7380d.chunk.js.map",
     "runtime-main.js": "/tomerk97/OnlineShmonline/static/js/runtime-main.cea13721.js",
     "runtime-main.js.map": "/tomerk97/OnlineShmonline/static/js/runtime-main.cea13721.js.map",
     "static/js/2.a6a3aec4.chunk.js": "/tomerk97/OnlineShmonline/static/js/2.a6a3aec4.chunk.js",
     "static/js/2.a6a3aec4.chunk.js.map": "/tomerk97/OnlineShmonline/static/js/2.a6a3aec4.chunk.js.map",
     "index.html": "/tomerk97/OnlineShmonline/index.html",
-    "precache-manifest.4534e7a5574fb5d363bca4083dc285d5.js": "/tomerk97/OnlineShmonline/precache-manifest.4534e7a5574fb5d363bca4083dc285d5.js",
+    "precache-manifest.4030ef639de08c6e1cdc6d7b04618228.js": "/tomerk97/OnlineShmonline/precache-manifest.4030ef639de08c6e1cdc6d7b04618228.js",
     "service-worker.js": "/tomerk97/OnlineShmonline/service-worker.js",
     "static/css/main.8a83f234.chunk.css.map": "/tomerk97/OnlineShmonline/static/css/main.8a83f234.chunk.css.map",
     "static/js/2.a6a3aec4.chunk.js.LICENSE.txt": "/tomerk97/OnlineShmonline/static/js/2.a6a3aec4.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.cea13721.js",
     "static/js/2.a6a3aec4.chunk.js",
     "static/css/main.8a83f234.chunk.css",
-    "static/js/main.6b91476c.chunk.js"
+    "static/js/main.4af7380d.chunk.js"
   ]
 }
