@@ -2,7 +2,7 @@
   "name": "onlineshmonline",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http://tomerk97.github.io/OnlineShmonline/home",
+  "homepage":"https://github.com/tomerk97/OnlineShmonline",
   "dependencies": {
     "@react-pdf/renderer": "^1.6.11",
     "@testing-library/jest-dom": "^4.2.4",
