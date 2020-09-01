@@ -13,14 +13,6 @@ import status from "./pages/status";
 class App extends Component {
 
   render() {
-      const App = () => (
-      <div>
-        <Switch>
-          <Route exact path='/' component={Home}/>
-          <Route path='/list' component={List}/>
-        </Switch>
-      </div>
-    )
 
 
       return( 
