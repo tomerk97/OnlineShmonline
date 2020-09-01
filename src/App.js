@@ -15,7 +15,7 @@ class App extends Component {
   render() {
 
       return( 
-       <Router basename='/pages'>
+       <Router basename='/'>
         <Route exact path="/" component ={MainPage}/> 
         <Route path="/dashboard" component ={dashboard}/> 
         <Route path="/forgot" component ={forgot}/> 
