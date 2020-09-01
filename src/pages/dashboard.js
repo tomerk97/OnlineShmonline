@@ -14,9 +14,9 @@ class dashboard extends Component {
 	    	<span>מוזמנים להגיש לנו בקשה, הערה או סתם מחשבה. כאן בשבילכם ובשביל האתר שלכם -תמיד.</span>
 	    	</h3>
 	      <div id="dashbuttons">
-	        <a href="./sign"> <button >לחתימה על הסכם </button></a>
-	        <a href="./status"><button >סטטוס הזמנה  </button></a>
-	        <a href="./payments"><button >תשלומים וקבלות  </button></a>
+	        <a href="./#/sign"> <button >לחתימה על הסכם </button></a>
+	        <a href="./#/status"><button >סטטוס הזמנה  </button></a>
+	        <a href="./#/payments"><button >תשלומים וקבלות  </button></a>
 	      </div>
 
 	      <div id="footer">
