@@ -15,14 +15,14 @@ class App extends Component {
   render() {
 
       return( 
-       <Router basename='/'>
+       <HashRouter basename='/'>
         <Route exact path="/" component ={MainPage}/> 
         <Route path="/dashboard" component ={dashboard}/> 
         <Route path="/forgot" component ={forgot}/> 
         <Route path="/sign" component ={sign}/> 
         <Route path="/payments" component ={payments}/> 
         <Route path="/status" component ={status}/> 
-       </Router>
+       </HashRouter>
 
       );
   }
