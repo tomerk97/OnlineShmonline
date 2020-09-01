@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import logo from './logo.svg';
 import './App.css';
-import {BrowserRouter as Router,HashRouter,Route,Switch,Link,Redirect} from 'react-router-dom';
+import {HashRouter as Router,HashRouter,Route,Switch,Link,Redirect} from 'react-router-dom';
 import MainPage from "./pages/index";
 import dashboard from "./pages/dashboard";
 import forgot from "./pages/forgot";
@@ -15,14 +15,14 @@ class App extends Component {
   render() {
       return( 
 
-       <HashRouter basename='/'>
-        <Route path="/main" component ={MainPage}/> 
+       <Router basename='/'>
+        <Route exact path="/" component ={MainPage}/> 
         <Route path="/dashboard" component ={dashboard}/> 
         <Route path="/forgot" component ={forgot}/> 
         <Route path="/sign" component ={sign}/> 
         <Route path="/payments" component ={payments}/> 
         <Route path="/status" component ={status}/> 
-       </HashRouter>
+       </Router>
 
       );
   }
