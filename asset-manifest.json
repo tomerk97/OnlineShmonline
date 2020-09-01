@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/tomerk97/OnlineShmonline/static/css/main.da09232d.chunk.css",
-    "main.js": "/tomerk97/OnlineShmonline/static/js/main.6fb4a43d.chunk.js",
-    "main.js.map": "/tomerk97/OnlineShmonline/static/js/main.6fb4a43d.chunk.js.map",
-    "runtime-main.js": "/tomerk97/OnlineShmonline/static/js/runtime-main.cea13721.js",
-    "runtime-main.js.map": "/tomerk97/OnlineShmonline/static/js/runtime-main.cea13721.js.map",
-    "static/js/2.680742ca.chunk.js": "/tomerk97/OnlineShmonline/static/js/2.680742ca.chunk.js",
-    "static/js/2.680742ca.chunk.js.map": "/tomerk97/OnlineShmonline/static/js/2.680742ca.chunk.js.map",
-    "index.html": "/tomerk97/OnlineShmonline/index.html",
-    "precache-manifest.18ce9951d80177f77102e87f638ee8a4.js": "/tomerk97/OnlineShmonline/precache-manifest.18ce9951d80177f77102e87f638ee8a4.js",
-    "service-worker.js": "/tomerk97/OnlineShmonline/service-worker.js",
-    "static/css/main.da09232d.chunk.css.map": "/tomerk97/OnlineShmonline/static/css/main.da09232d.chunk.css.map",
-    "static/js/2.680742ca.chunk.js.LICENSE.txt": "/tomerk97/OnlineShmonline/static/js/2.680742ca.chunk.js.LICENSE.txt",
-    "static/media/sign.css": "/tomerk97/OnlineShmonline/static/media/SecularOne-Regular.00ef7ea7.ttf",
-    "static/media/logo.svg": "/tomerk97/OnlineShmonline/static/media/logo.5d5d9eef.svg"
+    "main.css": "/OnlineShmonline/static/css/main.e812db8f.chunk.css",
+    "main.js": "/OnlineShmonline/static/js/main.beaa1420.chunk.js",
+    "main.js.map": "/OnlineShmonline/static/js/main.beaa1420.chunk.js.map",
+    "runtime-main.js": "/OnlineShmonline/static/js/runtime-main.ab23f816.js",
+    "runtime-main.js.map": "/OnlineShmonline/static/js/runtime-main.ab23f816.js.map",
+    "static/js/2.680742ca.chunk.js": "/OnlineShmonline/static/js/2.680742ca.chunk.js",
+    "static/js/2.680742ca.chunk.js.map": "/OnlineShmonline/static/js/2.680742ca.chunk.js.map",
+    "index.html": "/OnlineShmonline/index.html",
+    "precache-manifest.ae26322f65065405b02a67f40d755e83.js": "/OnlineShmonline/precache-manifest.ae26322f65065405b02a67f40d755e83.js",
+    "service-worker.js": "/OnlineShmonline/service-worker.js",
+    "static/css/main.e812db8f.chunk.css.map": "/OnlineShmonline/static/css/main.e812db8f.chunk.css.map",
+    "static/js/2.680742ca.chunk.js.LICENSE.txt": "/OnlineShmonline/static/js/2.680742ca.chunk.js.LICENSE.txt",
+    "static/media/sign.css": "/OnlineShmonline/static/media/SecularOne-Regular.00ef7ea7.ttf",
+    "static/media/logo.svg": "/OnlineShmonline/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cea13721.js",
+    "static/js/runtime-main.ab23f816.js",
     "static/js/2.680742ca.chunk.js",
-    "static/css/main.da09232d.chunk.css",
-    "static/js/main.6fb4a43d.chunk.js"
+    "static/css/main.e812db8f.chunk.css",
+    "static/js/main.beaa1420.chunk.js"
   ]
 }
