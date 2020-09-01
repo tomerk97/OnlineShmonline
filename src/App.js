@@ -15,7 +15,7 @@ class App extends Component {
   render() {
       return( 
        <Router>
-        <Route path="/Main" component ={MainPage}/> 
+        <Route path="/OnlineShmonline/main" component ={MainPage}/> 
         <Route path="/dashboard" component ={dashboard}/> 
         <Route path="/forgot" component ={forgot}/> 
         <Route path="/sign" component ={sign}/> 
