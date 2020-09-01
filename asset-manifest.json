@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/tomerk97/OnlineShmonline/static/css/main.8a83f234.chunk.css",
-    "main.js": "/tomerk97/OnlineShmonline/static/js/main.9841ff7a.chunk.js",
-    "main.js.map": "/tomerk97/OnlineShmonline/static/js/main.9841ff7a.chunk.js.map",
+    "main.css": "/tomerk97/OnlineShmonline/static/css/main.da09232d.chunk.css",
+    "main.js": "/tomerk97/OnlineShmonline/static/js/main.29637f42.chunk.js",
+    "main.js.map": "/tomerk97/OnlineShmonline/static/js/main.29637f42.chunk.js.map",
     "runtime-main.js": "/tomerk97/OnlineShmonline/static/js/runtime-main.cea13721.js",
     "runtime-main.js.map": "/tomerk97/OnlineShmonline/static/js/runtime-main.cea13721.js.map",
-    "static/js/2.7c96f5cc.chunk.js": "/tomerk97/OnlineShmonline/static/js/2.7c96f5cc.chunk.js",
-    "static/js/2.7c96f5cc.chunk.js.map": "/tomerk97/OnlineShmonline/static/js/2.7c96f5cc.chunk.js.map",
+    "static/js/2.680742ca.chunk.js": "/tomerk97/OnlineShmonline/static/js/2.680742ca.chunk.js",
+    "static/js/2.680742ca.chunk.js.map": "/tomerk97/OnlineShmonline/static/js/2.680742ca.chunk.js.map",
     "index.html": "/tomerk97/OnlineShmonline/index.html",
-    "precache-manifest.a063a0a257cf90f57f1e90c000e1440a.js": "/tomerk97/OnlineShmonline/precache-manifest.a063a0a257cf90f57f1e90c000e1440a.js",
+    "precache-manifest.8b152ad98a2bd66019a81a38f50d6f42.js": "/tomerk97/OnlineShmonline/precache-manifest.8b152ad98a2bd66019a81a38f50d6f42.js",
     "service-worker.js": "/tomerk97/OnlineShmonline/service-worker.js",
-    "static/css/main.8a83f234.chunk.css.map": "/tomerk97/OnlineShmonline/static/css/main.8a83f234.chunk.css.map",
-    "static/js/2.7c96f5cc.chunk.js.LICENSE.txt": "/tomerk97/OnlineShmonline/static/js/2.7c96f5cc.chunk.js.LICENSE.txt",
+    "static/css/main.da09232d.chunk.css.map": "/tomerk97/OnlineShmonline/static/css/main.da09232d.chunk.css.map",
+    "static/js/2.680742ca.chunk.js.LICENSE.txt": "/tomerk97/OnlineShmonline/static/js/2.680742ca.chunk.js.LICENSE.txt",
     "static/media/sign.css": "/tomerk97/OnlineShmonline/static/media/SecularOne-Regular.00ef7ea7.ttf",
     "static/media/logo.svg": "/tomerk97/OnlineShmonline/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.cea13721.js",
-    "static/js/2.7c96f5cc.chunk.js",
-    "static/css/main.8a83f234.chunk.css",
-    "static/js/main.9841ff7a.chunk.js"
+    "static/js/2.680742ca.chunk.js",
+    "static/css/main.da09232d.chunk.css",
+    "static/js/main.29637f42.chunk.js"
   ]
 }
