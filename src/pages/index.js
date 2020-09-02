@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles/index.css';
 
 
 const MainPage = () =>{
@@ -16,7 +17,7 @@ const MainPage = () =>{
 	      </div>
 	      <h1 id="forgotdiv">
 	        <span id="forgot">שכחתם את מספר הלקוח שלכם?*</span>
-	       	<span id="presshere"> לחצו כאן</span>
+	      	<span id="presshere"> <a href="./#/forgot"> לחצו כאן   </a></span>
 	      </h1>
 	      <div id="footer">
 	      	<h1><span>www.onlineshmonline.com | 050-6559605 | מאפו 27, תל אביב </span></h1>

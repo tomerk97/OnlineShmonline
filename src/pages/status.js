@@ -5,7 +5,7 @@ import Final from './Final';
  
 
 
-let aggreamentlist= [{ordernumber:1,orderstatus:true},{ordernumber:2,orderstatus:false}];
+
 
 
 
@@ -14,12 +14,13 @@ class status extends Component {
 	    super();
 	    this.state = { 
 	      aggreaments: '0',
+	      active:'0'
 	    };
   	}  
 
   render() {
 	    return (
-	    <div className="App"> <meta charset="utf-8" />	    	
+	    <div className="App"> <meta charset="ut f-8" />	    	
 	   		<h1 id="firstpar">אונליין שמונליין</h1>
 	   		<h2 id='statustopic'>סטטוס הזמנה</h2>
 	   		<p>

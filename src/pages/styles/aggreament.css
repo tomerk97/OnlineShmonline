@@ -1,4 +1,4 @@
-#ordernumber{
+	.ordernumber1 #ordernumber{
 	font-family: SecularOne-Regular;
 	font-weight: 800;
 	border:2px solid #fe6060;
@@ -7,7 +7,14 @@
 	padding-right: 1em;
 	cursor: pointer;
 	}
-	#ordernumber:hover{
+	.ordernumber2 #ordernumber{
+		font-family: SecularOne-Regular;
+		font-weight: 800;
+		border:2px solid #fe6060;
+		width: 13em;
+		text-align: right;
+		padding-right: 1em;
+		cursor: pointer;
 		background-color: #fe6060;
 		color:#fac900;
 	}

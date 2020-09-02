@@ -3,26 +3,6 @@ import Aggreament from './aggreement';
 import './styles/aggreamentlist.css'
 
 
-	const AggreamentList =({aggreaments}) =>{
-
-		const AggreamentsComponent = aggreaments.map((aggreament) =>{
-			let handleclick=()=>{
-			AggreamentList.number=aggreament.ordernumber;
-		}
-			return (
-			<Aggreament ordernumber={aggreament.ordernumber} orderstatus={aggreament.orderstatus} onClick={handleclick}/>
-			);
-		})
-	
-		return(
-			<div id="backdiv">
-				<div id="aggrementlist">
-					{AggreamentsComponent}
-				</div>
-			</div>
-		);	
-		let b=3;
-}
 
 
 
@@ -30,16 +10,20 @@ class FinalList extends Component{
 	constructor(){
 	    super();
 	    this.state = { 
-	     aggs : [{ordernumber:1,orderstatus:true,lastupdate:'12.9.2019'},{ordernumber:2,orderstatus:false,lastupdate:'28.8.2019'}],
-	     number:''
+	     aggs : [{ordernumber:1,orderstatus:true,lastupdate:'12.9.2019'},{ordernumber:2,orderstatus:false,lastupdate:'28.8.2019'},{ordernumber:3,orderstatus:false,lastupdate:
+	     	'28.4.2019'}],
+	     number:'',
+	     active:''
 	    };
 	    this.handleClick = this.handleClick.bind(this);
 
 	}
 
-	handleClick=(value)=>{
-
-		this.setState({number:value});
+	handleClick=(value,secvalue)=>{
+		if(this.state.active!=secvalue)
+			this.setState({number:value,active:secvalue});
+		else
+			this.setState({active:'',number:''});
 	}
 
 
@@ -47,13 +31,23 @@ class FinalList extends Component{
 
 
 
-let AggreamentsComponent = this.state.aggs.map((aggreament) =>{
+	let AggreamentsComponent = this.state.aggs.map((aggreament) =>{
 
-		return (
-			<Aggreament ordernumber={aggreament.ordernumber} orderstatus={aggreament.orderstatus}
-			onClick={()=>this.handleClick(aggreament.lastupdate)}/>
-			);
-		})
+			if(aggreament.ordernumber===this.state.active){
+			return (
+				<Aggreament className="ordernumber2" ordernumber={aggreament.ordernumber} orderstatus={aggreament.orderstatus}
+				onClick={()=>this.handleClick(aggreament.lastupdate,aggreament.ordernumber)}/>
+				);
+		}
+			if(aggreament.ordernumber!=this.state.active){
+			return (
+				<Aggreament className="ordernumber1" ordernumber={aggreament.ordernumber} orderstatus={aggreament.orderstatus}
+				onClick={()=>this.handleClick(aggreament.lastupdate,aggreament.ordernumber)}/>
+				);
+		}
+	})
+
+
 
     return (
       <div id="backdiv">
