@@ -140,11 +140,8 @@ input::-ms-input-placeholder { /* Microsoft Edge */
 }
 
 
-#footer {
-  text-align: center;
-}
 
-#footer span{
+.footer span{
   font-family: 'Heebo';
   background-color: #fe6060;
   color:#fac900;
@@ -154,4 +151,10 @@ input::-ms-input-placeholder { /* Microsoft Edge */
 #dashboardinputs button{
 
   background-color:#fac900;
+}
+.footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0; 
+  margin-right: 26.6%;
 }

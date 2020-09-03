@@ -19,7 +19,7 @@ class dashboard extends Component {
 	        <a href="./#/payments"><button >תשלומים וקבלות  </button></a>
 	      </div>
 
-	      <div id="footer">
+	      <div class="footer">
 	      	<h1><span>www.onlineshmonline.com | 050-6559605 | מאפו 27, תל אביב </span></h1>
 	      </div>
 

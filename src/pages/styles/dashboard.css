@@ -43,13 +43,17 @@ button a{
 
 #footer {
   text-align: center;
+  position: absolute;
+  bottom: 0; 
+  margin-right: 26.6%;
 }
 
 #footer span{
+  align-self: center;
   font-family: 'Heebo';
   background-color: #fe6060;
   color:#fac900;
-  font-size: 0.6em;
+  font-size: 6em;
   padding: 0em 2em;
 }
 

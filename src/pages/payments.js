@@ -22,7 +22,7 @@ class payments extends Component {
 	   		<span>ברוכים הבאים למערכת התשלומים שלנו.</span><br/>
 	   		<span>אתם מוזמנים לראות את הקבלות שלכם כאן, לעקוב אחרי תשלומים וגם לשלם את היתרה שלכם.</span>
 	   		</p>
-	    	<div id="paymentfooter">
+	    	<div class="footer">
 	      		<h1 ><span>www.onlineshmonline.com | 050-6559605 | מאפו 27, תל אביב </span></h1>
 	    	</div>
 

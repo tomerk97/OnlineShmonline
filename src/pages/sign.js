@@ -21,7 +21,7 @@ class sign extends Component {
 	   		<h2 id='aggreementspar'>הסכמים </h2>
 	   		<p> יש לך {this.state.aggreements} הסכמים  לחתימה. לחצ/י על ההסכם לתחילת עבודה. </p>
   			
-	    	<div id="signformfooter">
+	    	<div class="footer">
 	      		<h1 ><span>www.onlineshmonline.com | 050-6559605 | מאפו 27, תל אביב </span></h1>
 	    	</div>
 
